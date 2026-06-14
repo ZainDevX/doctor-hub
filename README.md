@@ -1,50 +1,261 @@
-# React + TypeScript + Vite
+# 🏥 Doctor Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive healthcare management platform built with modern web technologies. Doctor Hub is a multi-role application designed to streamline healthcare operations, improve patient-doctor interactions, and provide administrative oversight for medical institutions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+### **Patient Portal**
+- View medical history and appointment details
+- Schedule and manage appointments with doctors
+- Access medical records and prescriptions
+- Real-time appointment status tracking
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### **Doctor Dashboard**
+- Manage patient appointments and consultations
+- View detailed patient medical profiles
+- Update patient records and treatment notes
+- Access patient statistics and history
 
-- Configure the top-level `parserOptions` property like this:
+### **Medical Assistant Panel**
+- Assist in appointment scheduling and management
+- Maintain patient databases
+- Generate reports and documentation
+- Support administrative workflows
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### **Admin Dashboard**
+- Comprehensive analytics and reporting
+- User and role management
+- System configuration and monitoring
+- Resource allocation and planning
+- Generate insights with interactive charts and analytics
+
+### **Super-Admin Management**
+- Full system administration capabilities
+- User account management and security
+- Access control and permissions management
+- System-wide settings and configurations
+- Audit logs and monitoring
+
+### **Core Features**
+- 🔐 **Secure Authentication** - Role-based access control (RBAC)
+- 📊 **Advanced Analytics** - Real-time dashboards and reports
+- 📱 **Responsive Design** - Works seamlessly on desktop and mobile
+- 🔄 **Real-time Updates** - Live data synchronization
+- 📄 **PDF Export** - Generate and download medical documents
+- 🎨 **Modern UI** - Beautiful and intuitive user interface
+
+---
+
+## 🛠️ Tech Stack
+
+### **Frontend**
+- **React 19** - Modern UI library with hooks
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Lightning-fast build tool
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Router** - Client-side routing
+- **React Hook Form** - Efficient form management
+- **Zod** - TypeScript-first schema validation
+- **React Query** - Powerful data fetching and caching
+- **Framer Motion** - Smooth animations
+- **Recharts** - Interactive charts and visualizations
+- **Zustand** - Lightweight state management
+- **Lucide React** - Beautiful icon library
+- **Hot Toast** - Toast notifications
+
+### **Backend & Database**
+- **Supabase** - PostgreSQL database + authentication
+- **Real-time Sync** - Live data updates
+
+### **Development**
+- **ESLint** - Code quality and linting
+- **PostCSS** - CSS processing
+- **Vercel** - Deployment platform
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 16.x or higher
+- npm or yarn package manager
+- Supabase account (free tier available)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ZainDevX/doctor-hub.git
+   cd doctor-hub
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Configure environment variables**
+   Create a `.env.local` file in the root directory:
+   ```env
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```
+
+4. **Start development server**
+   ```bash
+   npm run dev
+   ```
+   The application will be available at `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+The optimized build will be created in the `dist` directory.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Preview Production Build
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm run preview
 ```
+
+---
+
+## 📁 Project Structure
+
+```
+doctor-hub/
+├── src/
+│   ├── admin/              # Admin dashboard pages and components
+│   ├── assistant/          # Medical assistant interface
+│   ├── auth/               # Authentication logic and pages
+│   ├── components/         # Reusable React components
+│   ├── doctor/             # Doctor portal and pages
+│   ├── doctors/            # Doctor discovery and management
+│   ├── layout/             # Layout components
+│   ├── lib/                # Utility functions and helpers
+│   ├── pages/              # Main application pages
+│   ├── patient/            # Patient portal
+│   ├── shared/             # Shared utilities and constants
+│   ├── store/              # Zustand state management
+│   ├── super-admin/        # Super-admin management interface
+│   ├── ui/                 # UI component library
+│   ├── App.tsx             # Main application component
+│   └── main.tsx            # Application entry point
+├── public/                 # Static assets
+├── package.json            # Dependencies and scripts
+├── vite.config.ts          # Vite configuration
+├── tailwind.config.js      # Tailwind CSS configuration
+├── tsconfig.json           # TypeScript configuration
+└── README.md               # This file
+```
+
+---
+
+## 🔐 User Roles
+
+### **Patient**
+- Schedule and manage appointments
+- View medical history
+- Access test results and prescriptions
+- Communicate with healthcare providers
+
+### **Doctor**
+- Manage patient appointments
+- Update patient medical records
+- View appointment schedules
+- Manage consultations
+
+### **Medical Assistant**
+- Support appointment scheduling
+- Maintain patient information
+- Generate reports
+- Assist with administrative tasks
+
+### **Admin**
+- View system analytics
+- Manage users and permissions
+- Generate reports
+- Monitor system performance
+
+### **Super-Admin**
+- Full system control
+- User management
+- Security and access control
+- System configuration
+
+---
+
+## 📚 API & Database
+
+The application uses **Supabase** for:
+- PostgreSQL database for data persistence
+- Real-time subscriptions for live updates
+- Authentication and authorization
+- Row-level security policies
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## 👤 Author
+
+**Zain**
+- GitHub: [@ZainDevX](https://github.com/ZainDevX)
+- Email: fa23-bse-047@cuivehari.edu.pk
+
+---
+
+## 🙏 Acknowledgments
+
+- Built with [React](https://react.dev)
+- Styled with [Tailwind CSS](https://tailwindcss.com)
+- Backend powered by [Supabase](https://supabase.io)
+- Deployed on [Vercel](https://vercel.com)
+
+---
+
+## 📞 Support
+
+If you encounter any issues or have questions, please:
+- Open an issue on GitHub
+- Check existing documentation
+- Review commit history for implementation details
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Enhanced patient notification system
+- [ ] Mobile app for iOS and Android
+- [ ] Advanced appointment scheduling with AI
+- [ ] Video consultation integration
+- [ ] Electronic health records (EHR) system
+- [ ] Prescription management system
+- [ ] Telemedicine features
+
+---
+
+**Made with ❤️ by Zain**
+
+Last Updated: June 14, 2026
