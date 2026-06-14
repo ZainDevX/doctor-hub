@@ -1,6 +1,30 @@
-# 🏥 Doctor Hub
+# 🏥 Doctor Hub [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=flat-square)](https://your-deployed-url.vercel.app)
 
 A comprehensive healthcare management platform built with modern web technologies. Doctor Hub is a multi-role application designed to streamline healthcare operations, improve patient-doctor interactions, and provide administrative oversight for medical institutions.
+
+---
+
+## 📸 Screenshots
+
+### Dashboard Overview
+![Dashboard](https://via.placeholder.com/1200x600?text=Doctor+Hub+Dashboard)
+*Add your dashboard screenshot here*
+
+### Patient Portal
+![Patient Portal](https://via.placeholder.com/1200x600?text=Patient+Portal)
+*Add your patient portal screenshot here*
+
+### Doctor Dashboard
+![Doctor Dashboard](https://via.placeholder.com/1200x600?text=Doctor+Dashboard)
+*Add your doctor dashboard screenshot here*
+
+### Admin Analytics
+![Admin Analytics](https://via.placeholder.com/1200x600?text=Admin+Analytics)
+*Add your admin dashboard screenshot here*
+
+### Mobile Responsive
+![Mobile View](https://via.placeholder.com/500x900?text=Mobile+Responsive+View)
+*Add your mobile view screenshot here*
 
 ---
 
@@ -55,31 +79,7 @@ A comprehensive healthcare management platform built with modern web technologie
 
 ---
 
-## 📸 Screenshots
-
-### Dashboard Overview
-![Dashboard](https://via.placeholder.com/1200x600?text=Doctor+Hub+Dashboard)
-*Add your dashboard screenshot here*
-
-### Patient Portal
-![Patient Portal](https://via.placeholder.com/1200x600?text=Patient+Portal)
-*Add your patient portal screenshot here*
-
-### Doctor Dashboard
-![Doctor Dashboard](https://via.placeholder.com/1200x600?text=Doctor+Dashboard)
-*Add your doctor dashboard screenshot here*
-
-### Admin Analytics
-![Admin Analytics](https://via.placeholder.com/1200x600?text=Admin+Analytics)
-*Add your admin dashboard screenshot here*
-
-### Mobile Responsive
-![Mobile View](https://via.placeholder.com/500x900?text=Mobile+Responsive+View)
-*Add your mobile view screenshot here*
-
----
-
-## 🛠️ Tech Stack
+## ️ Tech Stack
 
 ### **Frontend**
 - **React 19** - Modern UI library with hooks
