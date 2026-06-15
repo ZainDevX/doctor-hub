@@ -7,24 +7,24 @@ A comprehensive healthcare management platform built with modern web technologie
 ## 📸 Screenshots
 
 ### Dashboard Overview
-![Dashboard](https://via.placeholder.com/1200x600?text=Doctor+Hub+Dashboard)
-*Add your dashboard screenshot here*
+![Dashboard](https://github.com/user-attachments/assets/211d9c52-4a99-4ab9-be90-671cade5c399)
+
+### Login Overview
+![Dashboard](https://github.com/user-attachments/assets/55f01bee-4ad6-4fb0-ab30-f0bf33bf9df4)
 
 ### Patient Portal
-![Patient Portal](https://via.placeholder.com/1200x600?text=Patient+Portal)
-*Add your patient portal screenshot here*
+![Patient Portal](https://github.com/user-attachments/assets/d5992215-a77c-423d-98a1-7b835c01d0e0)
 
-### Doctor Dashboard
-![Doctor Dashboard](https://via.placeholder.com/1200x600?text=Doctor+Dashboard)
-*Add your doctor dashboard screenshot here*
+### Patient Appointment
+![Patient Appointment](https://github.com/user-attachments/assets/3499e27d-022f-445d-8e2c-c8b76c2f1658)
 
-### Admin Analytics
-![Admin Analytics](https://via.placeholder.com/1200x600?text=Admin+Analytics)
-*Add your admin dashboard screenshot here*
+###  Find Doctors
+![Doctor Dashboard](https://github.com/user-attachments/assets/b45e06e9-4a87-4d24-b3f6-c0c9eb7a7489)
 
-### Mobile Responsive
-![Mobile View](https://via.placeholder.com/500x900?text=Mobile+Responsive+View)
-*Add your mobile view screenshot here*
+### Admin Dashboard
+![Admin Analytics](https://github.com/user-attachments/assets/9c1cce5f-a4e9-4509-8f32-2f8e5484fb0d)
+
+
 
 ---
 
@@ -69,13 +69,6 @@ A comprehensive healthcare management platform built with modern web technologie
 - 🔄 **Real-time Updates** - Live data synchronization
 - 📄 **PDF Export** - Generate and download medical documents
 - 🎨 **Modern UI** - Beautiful and intuitive user interface
-
----
-
-## 🌐 Live Demo
-
-**Live URL:** [Add your live deployment URL here]  
-*Coming soon - Deploy your application and add the link*
 
 ---
 
